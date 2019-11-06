@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      body{
+          white-space: pre-line;
+          background-image: url('https://stpsupport.nice.org.uk/medicines-optimisation/assets/Ga2ol3jlje/a-number-of-medicines-of-all-shapes-and-size-laid-out-on-a-table-2560x1707.jpeg');;     
+}
+      
+      
+    </style>
+    <title>{{disease.name}}</title>
+  </head>
+  <style>
+        #footer{
+          background-color: #212121;
+          height: 60px;
+          position: fixed;
+          bottom: 0px;
+          left: 0px;
+          line-height: 20px;
+          color: #aaa;
+          text-align: center;
+          width: 100%;
+        }
+    </style>
+  <body>
+    
+    
+    
+        <li class="list-group-item active" style="font-size: 25px;">{{disease.name}}</li>
+        <li class="list-group-item" style="background: rgb(243, 113, 113);font-size: 25px;">Symptoms</li>
+        <b style="color: white;">{{disease.symptoms}}</b>
+        <li class="list-group-item" style="background: rgb(77, 240, 62);font-size: 25px;">Precautions</li>
+        <b style="color: white;">{{disease.precautions}}</b>
+        <li style="color: rgb(5, 5, 224);font-size: 25px;" class="list-group-item">{{disease.doctors}}</li>
+    
+      
+    
+      <div id="footer">
+            © Copyright CBK. All Rights Reserved<br>
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
